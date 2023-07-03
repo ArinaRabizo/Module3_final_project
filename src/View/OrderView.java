@@ -23,7 +23,8 @@ public class OrderView extends AppView{ /*Класс является насле
         System.out.println("Enter your phone: ");
         String phone = sc1.nextLine();
         shopService.createOrder(name, phone, "Moscow", "МИР", "22-00");
-
+        System.out.println("Order is created. Your info: ");
+        System.out.println("Name: " + name + ", phone: " + phone + ", address: Moscow, paymentType is МИР, delivery time is 22-00");
 
         }
     }
